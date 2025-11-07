@@ -1,0 +1,3 @@
+naa weather api = c04e7f6fecf3ec6ba800a58d99947fb6
+naa news api = 93fefc0a35c062ac7bc577cc10bcc23f
+naa images api = QktSXM3qEftcqeOrO97TSJ_yGXDXGG7m7N1OeHSv0ks
