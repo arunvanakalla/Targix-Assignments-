@@ -1,22 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import './index.css';
-import PageOne from './PageOne';
-import PageTwo from './PageTwo';
+import "./index.css";
+import PageOne from "./PageOne";
+import PageTwo from "./PageTwo";
+import { ProductProvider } from "./ProductContext";
 
-const route = createBrowserRouter([
+const router = createBrowserRouter([
   {
-    path : '/' , element : <PageOne />
+    path: "/",
+    element: <PageOne />,
   },
   {
-    path : '/confirm' , element : <PageTwo />
+    path: "/confirm",
+    element: <PageTwo />,
   },
-])
+]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <RouterProvider router = {route}/>
+    <ProductProvider>
+      <RouterProvider router={router} />
+    </ProductProvider>
   </React.StrictMode>
 );
