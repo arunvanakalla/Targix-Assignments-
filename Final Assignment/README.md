@@ -1,4 +1,4 @@
-# Project Management System
+# Ticket Go
 
 A full-stack web application for managing project tickets, tasks, and team collaboration. Built with Spring Boot (Backend) and React (Frontend), featuring role-based access control, ticket management, user administration, and real-time updates.
 
