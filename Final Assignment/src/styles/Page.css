@@ -1,0 +1,145 @@
+/* Global Page Styles - Standardized across all pages */
+
+.page-container {
+  padding: 24px;
+  background: #f4f5f7;
+  min-height: calc(100vh - 64px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Specific page max-widths */
+.ticket-detail-page .page-container,
+.ticket-form-page .page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Page Header - Standardized */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d1421;
+  letter-spacing: -0.3px;
+}
+
+/* Standard Card Styling */
+.standard-card {
+  border: 1px solid #e4e6ea;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+
+.standard-card:hover {
+  background: #fafbfc;
+}
+
+.standard-card .ant-card-head {
+  border-bottom: 2px solid #e4e6ea;
+  background: #fafbfc;
+  padding: 12px 20px;
+}
+
+.standard-card .ant-card-head-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0d1421;
+}
+
+.standard-card .ant-card-body {
+  padding: 16px 24px;
+}
+
+/* Utility text classes */
+.text-small-muted {
+  font-size: 12px;
+}
+
+/* Section Cards */
+.section-card {
+  border: 1px solid #e4e6ea;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+
+.section-card .ant-card-head {
+  border-bottom: 2px solid #e4e6ea;
+  background: #fafbfc;
+}
+
+.section-card .ant-card-head-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0d1421;
+}
+
+.section-card .ant-card-body {
+  padding: 24px;
+}
+
+/* Standard Button Styles */
+.page-header .ant-btn-primary {
+  background: #0052cc;
+  border-color: #0052cc;
+  font-weight: 500;
+  height: 40px;
+}
+
+.page-header .ant-btn-primary:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+}
+
+/* Standardize button sizes across pages */
+.page-container .ant-btn-large {
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.page-container .ant-btn-middle {
+  height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 16px;
+}
+
+.page-container .ant-btn-small {
+  height: 28px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 16px;
+  }
+
+  .page-header {
+    margin-bottom: 20px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .standard-card .ant-card-body {
+    padding: 16px;
+  }
+}
+

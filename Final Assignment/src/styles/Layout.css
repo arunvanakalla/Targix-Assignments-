@@ -1,0 +1,129 @@
+/* Layout Component Styles - Jira-Inspired */
+
+.layout-container {
+  min-height: 100vh;
+  background: #f4f5f7;
+}
+
+.layout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d1421;
+  padding: 0 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.layout-logo {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.layout-menu {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border-bottom: none;
+  margin-left: 32px;
+}
+
+.layout-menu .ant-menu-item {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+  font-size: 15px;
+  height: 64px;
+  line-height: 64px;
+  margin: 0 4px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.layout-menu .ant-menu-item:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.layout-menu .ant-menu-item-selected {
+  color: #ffffff;
+  background: rgba(0, 82, 204, 0.2);
+  border-bottom: 2px solid #0052cc;
+}
+
+.layout-menu .ant-menu-item-selected::after {
+  display: none;
+}
+
+.layout-menu .ant-menu-item-icon {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.layout-user-dropdown {
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.layout-user-dropdown:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.layout-user-dropdown .ant-avatar {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.layout-user-dropdown .ant-typography {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.layout-content {
+  padding: 24px;
+  background: #f4f5f7;
+  min-height: calc(100vh - 64px);
+}
+
+/* Dropdown menu */
+.layout-user-dropdown .ant-dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e4e6ea;
+  padding: 8px;
+}
+
+.layout-user-dropdown .ant-dropdown-menu-item {
+  font-weight: 500;
+  color: #0d1421;
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.layout-user-dropdown .ant-dropdown-menu-item:hover {
+  background: #f0f5ff;
+  color: #0052cc;
+}
+
+.layout-user-dropdown .ant-dropdown-menu-item-danger {
+  color: #ff4d4f;
+}
+
+.layout-user-dropdown .ant-dropdown-menu-item-danger:hover {
+  background: #fff1f0;
+  color: #ff4d4f;
+}
+

@@ -1,0 +1,239 @@
+/* TicketList Component Styles - Jira-Inspired */
+
+/* Note: page-container, page-header, and page-title are now in Page.css */
+/* Keeping only TicketList-specific styles here */
+
+/* Standardized utility classes */
+.active-filters-container {
+  margin-top: 12px;
+}
+
+.active-filters-label {
+  font-size: 13px;
+}
+
+.filter-chip {
+  font-size: 13px;
+  padding: 4px 8px;
+}
+
+.filters-panel {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e4e6ea;
+}
+
+.filter-label {
+  margin-bottom: 8px;
+}
+
+.filter-label-text {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.search-actions {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+/* Tabs Card */
+.ticket-list-tabs-card {
+  margin-bottom: 16px;
+  border: 1px solid #e4e6ea;
+  border-left: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.ticket-list-tabs-card .ant-card-body {
+  padding: 0;
+}
+
+.ticket-list-tabs {
+  padding: 0 16px;
+}
+
+.ticket-list-tabs .ant-tabs-tab {
+  font-weight: 500;
+  color: #42526e;
+  font-size: 14px;
+  padding: 12px 16px;
+}
+
+.ticket-list-tabs .ant-tabs-tab-active {
+  font-weight: 600;
+  color: #0052cc;
+}
+
+.ticket-list-tabs .ant-tabs-ink-bar {
+  background: #0052cc;
+  height: 3px;
+}
+
+/* Filters Card */
+.ticket-list-filters-card {
+  margin-bottom: 16px;
+  border: 1px solid #e4e6ea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.ticket-search-input {
+  border-radius: 6px;
+}
+
+.ticket-search-input .ant-input {
+  border-color: #dfe1e6;
+  font-weight: 400;
+  color: #172b4d;
+  font-size: 14px;
+}
+
+.ticket-search-input .ant-input:hover {
+  border-color: #0052cc;
+}
+
+.ticket-search-input .ant-input:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.1);
+}
+
+.full-width-select {
+  width: 100%;
+}
+
+.full-width-select .ant-select-selector {
+  border-color: #d9d9d9;
+  font-weight: 500;
+}
+
+.full-width-select .ant-select:hover .ant-select-selector {
+  border-color: #0052cc;
+}
+
+/* View mode tabs */
+.view-mode-tabs {
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e4e6ea;
+  padding: 4px;
+}
+
+.view-mode-tabs .ant-tabs-tab {
+  font-weight: 500;
+  color: #42526e;
+}
+
+.view-mode-tabs .ant-tabs-tab-active {
+  font-weight: 600;
+  color: #0052cc;
+}
+
+.view-mode-tabs .ant-tabs-ink-bar {
+  background: #0052cc;
+}
+
+/* Results count */
+.results-count {
+  margin-bottom: 16px;
+  color: #42526e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Table Card */
+.ticket-list-table-card {
+  border: 1px solid #e4e6ea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.ticket-list-table-card .ant-card-body {
+  padding: 0;
+}
+
+/* Table */
+.ticket-list-container .ant-table {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ticket-list-container .ant-table-thead > tr > th {
+  background: #fafbfc;
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e4e6ea;
+}
+
+.ticket-list-container .ant-table-tbody > tr > td {
+  color: #0d1421;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ticket-list-container .ant-table-tbody > tr:hover > td {
+  background-color: #f0f5ff;
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clickable-row:hover {
+  background-color: #f0f5ff !important;
+}
+
+.ticket-list-container .ant-tag {
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  padding: 4px 10px;
+}
+
+/* Search input */
+.ticket-list-container .ant-input-search {
+  border-radius: 6px;
+}
+
+.ticket-list-container .ant-input-search .ant-input {
+  border-color: #d9d9d9;
+  font-weight: 500;
+}
+
+.ticket-list-container .ant-input-search .ant-input:hover {
+  border-color: #0052cc;
+}
+
+.ticket-list-container .ant-input-search .ant-input:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.1);
+}
+
+/* Assign Ticket Modal */
+.assign-ticket-modal .ant-modal-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Buttons */
+.ticket-list-container .ant-btn-primary {
+  background: #0052cc;
+  border-color: #0052cc;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 82, 204, 0.2);
+}
+
+.ticket-list-container .ant-btn-primary:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+  box-shadow: 0 4px 8px rgba(0, 82, 204, 0.3);
+}
+

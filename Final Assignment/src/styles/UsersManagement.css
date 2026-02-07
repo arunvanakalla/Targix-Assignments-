@@ -1,0 +1,310 @@
+/* UsersManagement Component Styles - Jira-Inspired */
+
+/* Container and title now using page-container and page-title from Page.css */
+
+/* User table cell styles */
+.user-name {
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 15px;
+}
+
+.user-email {
+  font-size: 13px;
+  color: #42526e;
+  font-weight: 400;
+}
+
+/* Cards */
+.users-management-container .ant-card {
+  border: 1px solid #e4e6ea;
+  border-left: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.users-management-container .ant-card-head {
+  border-bottom: 2px solid #e4e6ea;
+  background: #fafbfc;
+}
+
+.users-management-container .ant-card-head-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0d1421;
+}
+
+.pending-approvals-card {
+  margin-bottom: 24px;
+}
+
+/* Table */
+.users-management-container .ant-table {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e4e6ea;
+  overflow: hidden;
+}
+
+.users-management-container .ant-table-thead > tr > th {
+  background: #fafbfc;
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e4e6ea;
+}
+
+.users-management-container .ant-table-tbody > tr > td {
+  color: #0d1421;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.users-management-container .ant-table-tbody > tr:hover > td {
+  background-color: #f0f5ff;
+}
+
+/* Tags */
+.users-management-container .ant-tag {
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  padding: 4px 10px;
+}
+
+/* Buttons */
+.users-management-container .ant-btn-primary {
+  background: #0052cc;
+  border-color: #0052cc;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 82, 204, 0.2);
+}
+
+.users-management-container .ant-btn-primary:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+  box-shadow: 0 4px 8px rgba(0, 82, 204, 0.3);
+}
+
+.users-management-container .ant-btn-danger {
+  font-weight: 500;
+}
+
+/* Modal styles */
+.full-width-select {
+  width: 100%;
+}
+
+.full-width-select .ant-select-selector {
+  border-color: #d9d9d9;
+  font-weight: 500;
+}
+
+.full-width-select .ant-select:hover .ant-select-selector {
+  border-color: #0052cc;
+}
+
+.transfer-info-text {
+  margin-top: 16px;
+  color: #42526e;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.loading-container {
+  text-align: center;
+  padding: 40px;
+  color: #42526e;
+}
+
+.user-detail-content {
+  width: 100%;
+}
+
+.user-detail-header {
+  text-align: center;
+  padding: 24px 0;
+  background: linear-gradient(135deg, #f0f5ff 0%, #ffffff 100%);
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.user-detail-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0d1421;
+}
+
+/* Reset Password Modal styles */
+.reset-password-info {
+  margin-bottom: 16px;
+  color: #42526e;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.reset-password-form {
+  width: 100%;
+}
+
+.reset-password-form .ant-form-item-label > label {
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 14px;
+}
+
+.password-input {
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0d1421;
+}
+
+.password-input:hover {
+  border-color: #0052cc;
+}
+
+.password-input:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.1);
+  outline: none;
+}
+
+.password-hint {
+  font-size: 13px;
+  color: #42526e;
+  font-weight: 400;
+}
+
+/* Empty state */
+.users-management-container .ant-empty {
+  color: #42526e;
+}
+
+.users-management-container .ant-empty-description {
+  color: #42526e;
+  font-size: 14px;
+}
+
+.empty-padding {
+  padding: 40px 0;
+}
+
+/* User Detail Modal */
+.user-detail-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-detail-modal-icon {
+  color: #0052cc;
+  font-size: 20px;
+}
+
+.modal-button {
+  font-weight: 500;
+}
+
+.user-detail-avatar {
+  border: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 82, 204, 0.2);
+}
+
+.user-detail-header-content {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.user-detail-title-spacing {
+  margin-bottom: 8px;
+}
+
+.user-detail-email {
+  font-size: 15px;
+}
+
+.user-detail-status-spacing {
+  margin-top: 8px;
+}
+
+.user-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.user-info-card {
+  border: 1px solid #e4e6ea;
+  border-left: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.user-info-label {
+  margin-bottom: 8px;
+}
+
+.user-info-label-text {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.user-info-tag {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+}
+
+.user-info-tag-small {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+}
+
+.user-info-ticket-count {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #0d1421;
+}
+
+.user-info-bio-label {
+  margin-bottom: 12px;
+}
+
+.user-info-bio-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #0d1421;
+  white-space: pre-wrap;
+}
+
+.divider-standard {
+  margin: 24px 0;
+}
+
+.user-detail-modal .ant-modal-body {
+  padding: 24px;
+}
+
+.user-info-bio-card {
+  margin-top: 16px;
+}
+
+.user-info-card-orange {
+  border-left-color: #ff9800;
+}
+

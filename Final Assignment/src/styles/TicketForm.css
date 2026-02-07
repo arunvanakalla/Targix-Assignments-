@@ -1,0 +1,107 @@
+/* TicketForm Component Styles - Jira-Inspired */
+/* Container and title now using page-container and page-title from Page.css */
+
+/* Form labels */
+.standard-card .ant-form-item-label > label {
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 14px;
+}
+
+.standard-card .ant-form-item-label > label .anticon {
+  color: #0052cc;
+  margin-right: 6px;
+}
+
+/* Form inputs */
+.standard-card .ant-input,
+.standard-card .ant-input-number,
+.standard-card .ant-select-selector {
+  border-color: #d9d9d9;
+  font-weight: 500;
+  color: #0d1421;
+  font-size: 15px;
+}
+
+.standard-card .ant-input:hover,
+.standard-card .ant-input-number:hover,
+.standard-card .ant-select:hover .ant-select-selector {
+  border-color: #0052cc;
+}
+
+.standard-card .ant-input:focus,
+.standard-card .ant-input-number:focus,
+.standard-card .ant-select-focused .ant-select-selector {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.1);
+}
+
+.standard-card .ant-input::placeholder {
+  color: #bfbfbf;
+}
+
+/* Textarea */
+.standard-card .ant-input {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Select dropdown */
+.standard-card .ant-select {
+  font-weight: 500;
+}
+
+/* Character counter */
+.standard-card .ant-form-item-extra {
+  color: #42526e;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Help text */
+.ticket-form-help {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f0f5ff;
+  border-radius: 6px;
+  border-left: 4px solid #0052cc;
+}
+
+.ticket-form-help-text {
+  font-size: 13px;
+  color: #0d1421;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ticket-form-help-text .anticon {
+  color: #0052cc;
+  margin-right: 8px;
+}
+
+/* Buttons */
+.standard-card .ant-btn-primary {
+  background: #0052cc;
+  border-color: #0052cc;
+  font-weight: 500;
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 82, 204, 0.2);
+}
+
+.standard-card .ant-btn-primary:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+  box-shadow: 0 4px 8px rgba(0, 82, 204, 0.3);
+  transform: translateY(-1px);
+}
+
+.standard-card .ant-btn {
+  font-weight: 500;
+  height: 40px;
+}
+
+/* Required field indicator */
+.standard-card .ant-form-item-required::before {
+  color: #ff4d4f;
+}
+

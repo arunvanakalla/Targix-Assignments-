@@ -1,0 +1,247 @@
+/* Auth Pages (Login & Register) Styles - Jira-Inspired */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f5f7;
+  padding: 24px;
+}
+
+.auth-card {
+  width: 400px;
+  max-width: 90vw;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(9, 30, 66, 0.31), 0 4px 8px -2px rgba(9, 30, 66, 0.25);
+  border: 1px solid #dfe1e6;
+}
+
+.auth-card.register-card {
+  width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.auth-logo {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.auth-logo-icon {
+  width: 48px;
+  height: 48px;
+  background: #0052cc;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #172b4d;
+  letter-spacing: -0.2px;
+}
+
+.auth-subtitle {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #6b778c;
+  font-weight: 400;
+}
+
+/* Form labels */
+.auth-card .ant-form-item-label > label {
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.auth-card .ant-form-item {
+  margin-bottom: 16px;
+}
+
+/* Form inputs */
+.auth-card .ant-input {
+  border-color: #dfe1e6;
+  font-weight: 400;
+  color: #172b4d;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 3px;
+  padding: 6px 12px;
+  background: #fafbfc;
+}
+
+.auth-card .ant-input:hover {
+  border-color: #0052cc;
+  background: #ffffff;
+}
+
+.auth-card .ant-input:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+  background: #ffffff;
+}
+
+/* Password input wrapper */
+.auth-card .ant-input-password {
+  height: 40px;
+  border-radius: 3px;
+  background: #fafbfc;
+  border: 1px solid #dfe1e6;
+}
+
+.auth-card .ant-input-password .ant-input {
+  border: none;
+  background: transparent;
+  padding: 6px 12px;
+  height: 100%;
+}
+
+.auth-card .ant-input-password:hover {
+  border-color: #0052cc;
+  background: #ffffff;
+}
+
+.auth-card .ant-input-password:hover .ant-input {
+  background: transparent;
+}
+
+.auth-card .ant-input-password.ant-input-password-focused,
+.auth-card .ant-input-password-focused {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+  background: #ffffff;
+}
+
+.auth-card .ant-input-password.ant-input-password-focused .ant-input,
+.auth-card .ant-input-password-focused .ant-input {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.auth-card .ant-input::placeholder {
+  color: #bfbfbf;
+}
+
+.auth-card .ant-input-password-icon {
+  color: #42526e;
+}
+
+.auth-button {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  background: #0052cc;
+  border-color: #0052cc;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.auth-button:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+}
+
+.auth-button:active {
+  background: #0747a6;
+  border-color: #0747a6;
+}
+
+.auth-submit {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #6b778c;
+  font-size: 14px;
+  padding-top: 20px;
+  border-top: 1px solid #dfe1e6;
+}
+
+.auth-footer .ant-btn-link {
+  padding: 0;
+  height: auto;
+  color: #0052cc;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.auth-footer .ant-btn-link:hover {
+  color: #0065ff;
+  text-decoration: underline;
+}
+
+/* Error messages */
+.auth-card .ant-form-item-explain-error {
+  color: #ff4d4f;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Help text */
+.auth-card .ant-form-item-extra {
+  color: #6b778c;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* Textarea */
+.auth-card .ant-input {
+  border-radius: 3px;
+}
+
+.auth-card textarea.ant-input {
+  background: #fafbfc;
+  border-color: #dfe1e6;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.auth-card textarea.ant-input:hover {
+  border-color: #0052cc;
+  background: #ffffff;
+}
+
+.auth-card textarea.ant-input:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+  background: #ffffff;
+}
+
+/* Scrollbar for register card */
+.auth-card.register-card::-webkit-scrollbar {
+  width: 6px;
+}
+
+.auth-card.register-card::-webkit-scrollbar-track {
+  background: #f4f5f7;
+}
+
+.auth-card.register-card::-webkit-scrollbar-thumb {
+  background: #c1c7d0;
+  border-radius: 3px;
+}
+
+.auth-card.register-card::-webkit-scrollbar-thumb:hover {
+  background: #a5adba;
+}
+

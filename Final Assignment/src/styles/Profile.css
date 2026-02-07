@@ -1,0 +1,182 @@
+/* Profile Component Styles - Jira-Inspired */
+
+/* Loading state */
+.profile-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+/* Main container - now using page-container from Page.css */
+/* Profile title - now using page-title from Page.css */
+
+/* Profile summary card (left sidebar) */
+.profile-summary-card {
+  text-align: center;
+  margin-bottom: 24px;
+  position: sticky;
+  top: 24px;
+  border: 1px solid #e4e6ea;
+  border-left: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.profile-avatar {
+  margin-bottom: 16px;
+  border: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 82, 204, 0.2);
+}
+
+.profile-username {
+  margin-bottom: 8px;
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d1421;
+}
+
+.profile-email {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 16px;
+  color: #42526e;
+  font-weight: 400;
+}
+
+.profile-info-section {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e4e6ea;
+}
+
+.profile-info-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #42526e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.profile-info-label .anticon {
+  color: #0052cc;
+  font-size: 13px;
+}
+
+.profile-info-value {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0d1421;
+}
+
+.profile-status-tag {
+  font-size: 13px;
+  padding: 6px 12px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profile-roles-container {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.profile-role-tag {
+  margin: 0;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Display picture link */
+.display-picture-link {
+  word-break: break-all;
+  color: #0052cc;
+  font-weight: 500;
+}
+
+.display-picture-link:hover {
+  color: #0065ff;
+}
+
+/* Tabs */
+.profile-container .ant-tabs {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e4e6ea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 0 24px;
+}
+
+.profile-container .ant-tabs-tab {
+  font-weight: 500;
+  color: #42526e;
+  font-size: 15px;
+}
+
+.profile-container .ant-tabs-tab-active {
+  font-weight: 600;
+  color: #0052cc;
+}
+
+.profile-container .ant-tabs-ink-bar {
+  background: #0052cc;
+}
+
+.profile-container .ant-tabs-content-holder {
+  padding: 24px 0;
+}
+
+/* Form in tabs */
+.profile-container .ant-form-item-label > label {
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 14px;
+}
+
+.profile-container .ant-input,
+.profile-container .ant-input-password {
+  border-color: #d9d9d9;
+  font-weight: 500;
+  color: #0d1421;
+  font-size: 15px;
+}
+
+.profile-container .ant-input:hover,
+.profile-container .ant-input-password:hover {
+  border-color: #0052cc;
+}
+
+.profile-container .ant-input:focus,
+.profile-container .ant-input-password:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.1);
+}
+
+/* Buttons */
+.profile-container .ant-btn-primary {
+  background: #0052cc;
+  border-color: #0052cc;
+  font-weight: 500;
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 82, 204, 0.2);
+}
+
+.profile-container .ant-btn-primary:hover {
+  background: #0065ff;
+  border-color: #0065ff;
+  box-shadow: 0 4px 8px rgba(0, 82, 204, 0.3);
+}
+

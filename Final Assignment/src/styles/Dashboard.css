@@ -1,0 +1,132 @@
+/* Dashboard Component Styles - Jira-Inspired */
+
+/* Loading skeleton */
+.dashboard-skeleton-header {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-skeleton-title {
+  width: 200px;
+}
+
+.dashboard-skeleton-cards {
+  margin-bottom: 28px;
+}
+
+/* Dashboard header */
+.dashboard-header {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d1421;
+  letter-spacing: -0.3px;
+}
+
+/* Statistics row */
+.stats-row {
+  margin-bottom: 28px;
+}
+
+/* Statistics cards */
+.stats-row .ant-card {
+  border: 1px solid #e4e6ea;
+  border-left: 4px solid #0052cc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s;
+}
+
+.stats-row .ant-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-left-color: #0065ff;
+  transform: translateY(-2px);
+}
+
+.stats-row .ant-statistic-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #42526e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-row .ant-statistic-content {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0d1421;
+}
+
+/* View button */
+.view-button {
+  padding: 0;
+  height: auto;
+  font-weight: 500;
+  color: #0052cc;
+}
+
+.view-button:hover {
+  color: #0065ff;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 40px 0;
+  color: #42526e;
+  font-size: 15px;
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #c1c7d0;
+}
+
+/* Table row */
+.clickable-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clickable-row:hover {
+  background-color: #f0f5ff !important;
+}
+
+/* Table styling */
+.dashboard-container .ant-table {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e4e6ea;
+  overflow: hidden;
+}
+
+.dashboard-container .ant-table-thead > tr > th {
+  background: #fafbfc;
+  font-weight: 600;
+  color: #0d1421;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e4e6ea;
+}
+
+.dashboard-container .ant-table-tbody > tr > td {
+  color: #0d1421;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dashboard-container .ant-tag {
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
